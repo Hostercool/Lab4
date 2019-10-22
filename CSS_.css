@@ -1,0 +1,29 @@
+.wrapper{
+	display: flex;
+	height: 800px;
+	background: blue;
+	justify-content: space-around;
+	align-content: baseline;
+
+}
+
+.cl{
+	width: 150px;
+	height: 150px
+}
+.sq1{
+	background: red;
+}
+.sq2{
+	background: yellow;
+}
+.sq3{
+	background: green;
+}
+
+
+@media(max-width: 1024px){
+	.wrapper{
+		flex-direction: column;
+	}
+}
